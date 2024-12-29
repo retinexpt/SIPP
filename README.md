@@ -42,10 +42,11 @@ Copyright
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Version history:
 
-0.5: Dec 2024, Initial version. Initial release.
-     Author: Tian Pu
+0.5: 
+     Dec 2024, Initial version. Initial release.
+     Author: 
+             Tian Pu
              IDIPLab, School of Information and Communication Engineering
              University of Electronic Science and Technology of China.
-     Tian Pu wrote the main program of SIPP. The source codes of each image 
-     processing method are written by its authors unless specifically indicated 
-     in its m-file.
+     
+     Tian Pu wrote the main program of SIPP. The source codes of each image processing method are written by its authors unless specifically indicated in its m-file.
