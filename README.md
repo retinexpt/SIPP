@@ -1,4 +1,4 @@
-SIPP：A single-image processing platform
+SIPP：Single-image processing platform
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
