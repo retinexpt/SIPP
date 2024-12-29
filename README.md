@@ -25,6 +25,7 @@ Usage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 For developers
+
     I would be very grateful if you were interested in improving SIPP.
     There are two things to pay attention to when developing a sipp plug-in:
     1)The interface file.
@@ -34,6 +35,7 @@ For developers
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 Copyright
+
     SIPP is for academic purposes only. 
     
 
