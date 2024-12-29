@@ -13,7 +13,7 @@ end
 
 if strcmpi(option,'get_parameter')==1  
     param(1).name = 'Gamma';
-    param(1).value = '0.45';
+    param(1).value = '0.6';
     
     varargout{1} = param;    
     return;
@@ -35,13 +35,13 @@ if strcmpi(option,'run')==1
     Ahsv = rgb2hsv(imgIn);
     imgArray = Ahsv(:,:,3)*255;  
     
-    gamma = 1/2.2;
+    gamma = 1/2.5;
 	if isempty(varargin) == 1
 		inputtitle='Input the cell parameters';
 		parameters={'gamma\original 1/2.2'};
 		
 		lines=1;
-		default={'0.45'};
+		default={'0.6'};
 		para_set = inputdlg(parameters,inputtitle,lines,default);
 		
 		gamma = str2double(para_set{1});		
