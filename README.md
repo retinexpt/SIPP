@@ -1,4 +1,4 @@
 SIPP
 ====
 
-Scientific Image Processing Platform
+Single Image Processing Platform
