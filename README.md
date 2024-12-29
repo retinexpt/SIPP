@@ -15,9 +15,11 @@ Plug-in based architecture
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Environment
+
     SIPP is developed on Matlab 2018a, but I believe it can run on Matlab 2014 or later.
 
 Usage
+
     Launch Matlab, install sipp and its subfolders in Matlab paths, then type sipp in the Command window, press Enter.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
