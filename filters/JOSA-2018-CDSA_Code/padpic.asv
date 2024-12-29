@@ -1,0 +1,14 @@
+function padp=padpic(pic,blkwin)
+    [m,n]=size(pic);
+    padm=blkwin-m-floor(m/blkwin)*blkwin;%²¹³äµÄ±ß
+    padn=n-floor(n/blkwin)*blkwin;
+    padp=zeros(m+padm,n+padn);
+    padp(1:m,1:n)=pic;
+    %¼Ó±ß
+    for i=m+1:m+padm
+        padp(i,:)=padp(2*m-i+1,:);
+    end
+    for j=n+1:n+padn
+        padp(:,j)=padp(:,2*n-j+1);
+    end
+end
