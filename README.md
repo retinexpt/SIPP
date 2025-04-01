@@ -2,7 +2,7 @@ SIPP：Single-image processing platform
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-There are a large number of image enhancement methods in the literature. Many of them publicly provide the demos or the source codes. One of my researches require a visual comparison of them. However, I have not found a tool that integrates the various demos or source codes to meet my requirement. Therefore, I designed SIPP for the convenience of my own work. 
+There are a large number of image enhancement methods in the literature. Many of them publicly provide the demos or the source codes. One of my researches requires a visual comparison of them. However, I have not found a tool that integrates the various demos or source codes to meet my requirement. Therefore, I designed SIPP for the convenience of my own work. 
 
 SIPP integrates about 30 image enhancement methods, and more single image processing methods will be added in the future. SIPP has the following features:
 
