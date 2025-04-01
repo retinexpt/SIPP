@@ -1,8 +1,8 @@
-SIPP£ºA single-image processing platform
+SIPPÂ£ÂºA single-image processing platform
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-There are a large number of image enhancement methods in the literature. Many of them publicly provide the demos or the source codes. One of my researches require a visual comparison of them. However, I have not found a tool that integrates the various demos or source codes to meet my requirement. Therefore, I designed SIPP for the convenience of my own work. 
+There are a large number of image enhancement methods in the literature. Many of them publicly provide the demos or the source codes. One of my researches requires a visual comparison of them. However, I have not found a tool that integrates the various demos or source codes to meet my requirement. Therefore, I designed SIPP for the convenience of my own work. 
 
 SIPP integrates about 30 image enhancement methods, and more single image processing methods will be added in the future. SIPP has the following features:
 
@@ -26,7 +26,7 @@ For developers
     I would be very grateful if you were interested in improving SIPP.
     There are two things to pay attention to when developing a sipp plug-in:
     1)The interface file.
-    Each plug-in for a single-image processing method should have an interface file with a function prefix ¡®spl_¡¯ to be loaded by SIPP. Please take the spl_*.m file in each subdirectory of filters folder as the example. 
+    Each plug-in for a single-image processing method should have an interface file with a function prefix Â¡Â®spl_Â¡Â¯ to be loaded by SIPP. Please take the spl_*.m file in each subdirectory of filters folder as the example. 
     2) The plug-in folder
     All plug-ins should have their own one-level subfolder within the folder called filters. I did not design recursive access to the plug-ins, so only one-level subdirectory for each plug-in is allowed.
 
